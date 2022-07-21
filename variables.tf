@@ -137,7 +137,6 @@ variable "ssm_enabled" {
   default     = true
 }
 
-<<<<<<< HEAD
 variable "security_groups" {
   type        = list(string)
   description = "A list of Security Group IDs to associate with bastion host."
